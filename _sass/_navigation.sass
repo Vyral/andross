@@ -1,0 +1,62 @@
+.navbar-andross
+	border: none
+	border-radius: 0
+	min-height: 65px
+	background: #fff
+
+.navbar-andross .navbar-brand
+	color: $brand
+	padding-top: 33px
+	padding-bottom: 33px
+	font-size: 20px
+	text-transform: uppercase
+
+.navbar-nav>li
+	margin-right: 10px
+	@include transition
+
+.navbar-nav>li>a
+	font-size: 20px
+	margin-top: 12px
+	padding: 10px 10px
+	border-radius: 5px
+	@include transition
+
+.cta
+	background: transparentize($brand, .1)
+	color: #fff
+	border: 1px solid $brand
+
+.navbar>li.cta:hover
+	background: $brand-light
+	border: 1px solid $brand-light
+	color: #fff
+	@include transition
+	@include shadow
+
+.cta2
+	background: rgba(255,255,255,.3)
+	border: 1px solid $brand
+	color: $brand
+
+.navbar>li>.cta2:hover
+	border: 1px solid $brand-light
+	@include transition
+	@include shadow
+
+.navbar-left>li>a
+	border: 0
+	background: transparent
+	color: $brand
+	&:hover
+		background: transparent
+		color: $brand-light
+
+.fa-bars
+	color: $brand
+
+.navbar-toggle
+	margin-top: 20px
+
+.navbar
+	padding-right: 15px

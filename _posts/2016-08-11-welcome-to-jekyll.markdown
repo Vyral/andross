@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-08-12 11:19:35 -0500
-categories: buyertips
+title:  "Why You Should Sell Your Home"
+date:   2016-08-11 11:19:35 -0500
+categories: sellertips
 image: http://placehold.it/560x315
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
