@@ -29,11 +29,13 @@ $post-wrapper-border: #D8D8D8
 $footer-background: #4A4A4A
 $readmore-border-color: $footer-background
 $form-border-color: gray
-$form-focus-outline: #33C3F0
+$form-focus-outline: $brand-light
 
 //icon fills
 $icon-fill: $light-text
 
+//light and dark theme
+$theme: {{ site.data.settings.theme_color }}
 
 //Mixins
 @mixin size($n)
@@ -47,6 +49,12 @@ $icon-fill: $light-text
 	-o-transition: .5s ease-in-out
 	transition: .5s ease-in-out
 
+//vendors
+@import "vendor/normalize"
+@import "vendor/skeleton"
+@import "vendor/flexslider"
+@import "vendor/bourbon/bourbon"
+
 @import "navigation"
 @import "blog-archive"
 @import "header"
@@ -55,3 +63,8 @@ $icon-fill: $light-text
 @import "posts"
 @import "socials"
 @import "search"
+@import "reviews"
+@import "about"
+@import "pagination"
+
+@import "custom"

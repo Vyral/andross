@@ -6,25 +6,18 @@
 	ul
 		margin-bottom: 0.1rem
 		max-height: 5rem
-		margin-left: -50px
 		list-style-type: none
 		li
 			padding: 0.3rem
 			display: inline-block
 	svg
 		fill: $brand
-		@include size(4rem)
+		@include size(3rem)
 		border-radius: 50%
-		-webkit-transition: .5s ease-in-out
-		-moz-transition: .5s ease-in-out
-		-o-transition: .5s ease-in-out
-		transition: .5s ease-in-out
+		@include transition
 		&:hover
 			fill: $brand-light
-			-webkit-transition: .5s ease-in-out
-			-moz-transition: .5s ease-in-out
-			-o-transition: .5s ease-in-out
-			transition: .5s ease-in-out
+			@include transition
 			@include shadow
 
 //For about page
@@ -74,17 +67,21 @@
 			svg
 				@include size(1.8rem)
 
-@media (max-width: 1530px)
+@media (max-width: 1540px)
 	.socials
 		svg
-			@include size(3rem)
+			@include size(2.8rem)
 
 @media (max-width: 990px)
 	.socials
 		svg
-			@include size(5rem)
+			@include size(9rem)
 		text-align: center
 
+@media (max-width: 1450px)
+	.socials
+		svg
+			@include size(2.6rem)
 @media (max-width: 1200px)
 	.socials
 		svg

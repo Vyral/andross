@@ -3,19 +3,21 @@ description: There are no such thing as a sad unicorn.
 
 client:
   market:
-  name:
-  brand: '#'
+  name: andross
+  brand: 'nintendo'
   brokerage: '#'
-  address:
-  phone:
-  email:
-  url:
+  address: 123 fake st.
+  phone: 402-402-4002
+  email: sample@email.com
+  #Dont Include http://
+  url: getvyral.com
   # if forms put '/homevalue/' or '/homesearch/'
-  homeeval: http://hello.com
+  homeeval: 'http://google.com'
   homeeval_txt: Home Evaluation
-  homesearch: http://hello.com
+  homesearch: /homesearch
   homesearch_txt: Home Search
   VR_form:
+
 
 # social links
 socials:
@@ -24,11 +26,11 @@ socials:
   gplus: 'http://plus.google.com'
   youtube: 'http://youtube.com'
   twitter: 'http://twitter.com'
-  instagram: '#'
-  pinterest: '#'
-  zillow: 'http://#.com'
-  trulia: 'http://#.com'
-  yelp: 'http://#.com'
+  instagram: 'http://instagram.com'
+  pinterest: 'http://pintrest.com'
+  zillow: 'http://zillow.com'
+  trulia: 'http://trulia.com'
+  yelp: 'http://yelp.com'
   podcast: 'http://#.com'
 
 #podcast settings
@@ -53,8 +55,11 @@ images:
   hero_image_path: http://0.design-milk.com/images/2015/12/iso_rynth03-pattern.jpg
   hero_logo_path: http://design.ubuntu.com/wp-content/uploads/logo-ubuntu_st_no%C2%AE-white-hex.png
   hero_background_hex: "#123456"
-  client_headshot_path:
+  client_headshot_path: http://i.imgur.com/RQeCxbx.png
 
 #colors
-brand_hex: "#123456"
+brand_hex: '#123456'
 fontcolor_hex: "#353535"
+
+#experimental, don't use yet
+theme_color: "#fff"

@@ -1,0 +1,31 @@
+.zillow-logo
+	fill: $icon-fill
+	max-height: 3rem
+	position: relative
+	top: 0.5rem
+
+.trulia-logo
+	@extend .zillow-logo
+	top: 0.2rem
+
+.yelp-logo
+	@extend .zillow-logo
+
+.review-button-wrapper
+	text-align: left
+
+.review.button
+	text-align: center
+	display: inline-block
+	width: 75%
+	margin: .5rem
+	font-size: 2rem
+	border-radius: 5px
+	@include transition
+	&:hover
+		@include shadow
+
+@media (max-width: 990px)
+	.review-button-wrapper
+		text-align: center
+		background: darken($theme, 20%)

@@ -2,7 +2,26 @@
 	border: none
 	border-radius: 0
 	min-height: 65px
-	background: #fff
+	background: $theme
+	.cta
+		background: $brand
+		color: #fff
+		border: 1px solid $brand
+		&:hover
+			background: $brand-light
+			border: 1px solid $brand-light
+			color: #fff
+			@include transition
+			@include shadow
+
+	.cta2
+		background: #fff
+		border: 1px solid $brand
+		color: $brand
+		&:hover
+			border: 1px solid $brand-light
+			@include transition
+			@include shadow
 
 .navbar-andross .navbar-brand
 	color: $brand
@@ -21,28 +40,6 @@
 	padding: 10px 10px
 	border-radius: 5px
 	@include transition
-
-.cta
-	background: transparentize($brand, .1)
-	color: #fff
-	border: 1px solid $brand
-
-.navbar>li.cta:hover
-	background: $brand-light
-	border: 1px solid $brand-light
-	color: #fff
-	@include transition
-	@include shadow
-
-.cta2
-	background: rgba(255,255,255,.3)
-	border: 1px solid $brand
-	color: $brand
-
-.navbar>li>.cta2:hover
-	border: 1px solid $brand-light
-	@include transition
-	@include shadow
 
 .navbar-left>li>a
 	border: 0
