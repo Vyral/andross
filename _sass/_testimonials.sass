@@ -1,0 +1,34 @@
+// .owl-wrapper
+// 	text-align: center
+// 	flex-wrap: wrap
+// 	background: tomato
+// 	height: 500px
+.item
+	position: relative
+	margin: 5rem 5rem
+	padding: 5rem
+	&::before
+		content: "“"
+		color: $brand
+		font-size: 8rem
+		position: absolute
+		left: 0rem
+		top: -1rem
+	&::after
+		content: "”"
+		color: $brand
+		font-size: 8rem
+		position: absolute
+		right: 0
+		bottom: 11rem
+.owl-carousel
+.testimonial
+	font-size: 1.8rem
+	font-family: serif
+	font-style: italic
+
+.testimonial-attribute
+	font-weight: bold
+
+.testimonial-container
+	background: #cdcdcd

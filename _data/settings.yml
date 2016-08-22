@@ -12,9 +12,9 @@ client:
   #Dont Include http://
   url: getvyral.com
   # if forms put '/homevalue/' or '/homesearch/'
-  homeeval: 'http://google.com'
+  homeeval: '/homevalue/'
   homeeval_txt: Home Evaluation
-  homesearch: /homesearch
+  homesearch: /homesearch/
   homesearch_txt: Home Search
   VR_form:
 
