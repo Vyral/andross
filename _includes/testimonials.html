@@ -4,9 +4,10 @@
 				<div class="item">
             {{item.quote | prepend: '<p class="testimonial">' | append: '</p>'}}
             {{item.name | prepend: '<p class="testimonial-attribute"> - ' | append: '</p>'}}
+						{% if item.audio != '#' %}
             <p>Listen to the whole Interview:</p>
-            <audio src="{{item.audio}}" controls="control" preload="auto">Your browser does not support HTML5 audio, please <a href="http://browsehappy.com/">update your browser.</a></audio>
-
+            <audio class="jp-player-simple" src="{{item.audio}}" preload="auto">Your browser does not support HTML5 audio, please <a href="http://browsehappy.com/">update your browser.</a></audio>
+						{% endif %}
 				</div>
 		{% endfor %}
 

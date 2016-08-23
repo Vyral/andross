@@ -81,7 +81,9 @@ $(document).ready(function() {
 	      itemsDesktopSmall : [900,1], // betweem 900px and 601px
 	      itemsTablet: [600,1], //2 items between 600 and 0
 	      itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
-				autoPlay: true
+				autoPlay: false,
+				stopOnHover: true,
+				navigationText: true
 	  });
 
 	  // Custom Navigation Events
