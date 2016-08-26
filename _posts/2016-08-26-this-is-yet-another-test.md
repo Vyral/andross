@@ -7,10 +7,10 @@ image: /img/starfox-wallpaper.png
 ---
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zZh5gFHQATA" frameborder="0" allowfullscreen=""></iframe>
+<div class="fluid-vids" style="width: 100%; position: relative; padding-top: 56.25%;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/zZh5gFHQATA" frameborder="0" allowfullscreen="" style="position: absolute; top: 0px; left: 0px;"></iframe></div>
 
 Hello world, this is a test post that I made in cloud cannon!
 {: .present-before-paste}
 
-![](/uploads/versions/starfox-wallpaper---x0-0-1920-1080-1920-1080x---.png)
+&nbsp;
 {: .present-before-paste}
