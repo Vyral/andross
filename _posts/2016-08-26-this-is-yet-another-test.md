@@ -7,7 +7,10 @@ image: /img/starfox-wallpaper.png
 ---
 
 
-![](/uploads/versions/starfox-wallpaper---x----1920-1080x---.png)
+&nbsp;
+{: .present-before-paste}
+
+&nbsp;
 {: .present-before-paste}
 
 Hello world, this is a test post that I made in cloud cannon!
