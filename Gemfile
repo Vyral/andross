@@ -10,3 +10,4 @@ gem 'octopress-autoprefixer'
 gem 'guard'
 gem 'guard-jekyll-plus'
 gem 'guard-livereload'
+gem 'jekyll-admin', group: :jekyll_plugins

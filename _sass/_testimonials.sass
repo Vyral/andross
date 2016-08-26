@@ -5,23 +5,24 @@
 // 	height: 500px
 .item
 	position: relative
-	margin: 5rem 5rem
+	margin: 0rem 10px
 	padding: 5rem
+	height: 100%
+	flex: flex-end
 	&::before
 		content: "“"
-		color: $brand
+		color: $brand-light
 		font-size: 8rem
 		position: absolute
 		left: 0rem
 		top: -1rem
 	&::after
 		content: "”"
-		color: $brand
+		color: $brand-light
 		font-size: 8rem
 		position: absolute
 		right: 0
-		bottom: 11rem
-.owl-carousel
+		bottom: 18rem
 .testimonial
 	font-size: 1.8rem
 	font-family: serif
@@ -31,4 +32,21 @@
 	font-weight: bold
 
 .testimonial-container
-	background: #cdcdcd
+	background: $brand
+	color: $testimonial_fontcolor
+
+.testimonial-navigation
+	padding: 10px
+	display: flex
+	width: 100%
+	justify-content: space-between
+	a
+		color: $brand-light
+		font-size: 3rem
+		cursor: pointer
+		+transition
+		&:hover
+			color: lighten($brand-light, 10%)
+	h3
+		padding: 0 10px
+		text-align: center
