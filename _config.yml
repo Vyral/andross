@@ -1,3 +1,4 @@
+title: "Andross"
 # the subpath of your site, e.g. /blog
 baseurl: ""
 # the base hostname & protocol for your site. Don't let it end in '/' or you'll mess the links up
@@ -34,3 +35,10 @@ exclude:
 sass:
   sass_dir: _sass
   style: :nested
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
