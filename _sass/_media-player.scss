@@ -1,8 +1,8 @@
 $color-highlight: $brand-light;
 $color-background: rgba(0,0,0,0);
-$color-progress: $brand;
+$color-progress: $brand-light;
 $color-text: $brand;
-$color-text-muted: $brand-light;
+$color-text-muted: $brand;
 
 .jp-audio {
   border: 0;
@@ -17,7 +17,8 @@ $color-text-muted: $brand-light;
   text-align: left;
   -webkit-touch-callout: none;
   user-select: none;
-  width: 100%;
+  width: 75%;
+
 
   // hide volume buttons on mobile
   &.jp-state-no-volume .jp-volume-controls {
@@ -28,6 +29,7 @@ $color-text-muted: $brand-light;
   &.jp-state-muted .jp-controls a {
     &.jp-volume-max {
       display: inline-block !important;
+
     }
 
     &.jp-mute {
@@ -45,6 +47,7 @@ $color-text-muted: $brand-light;
   .jp-controls {
     table-layout: fixed;
     width: 100%;
+		border-bottom: 5px solid #fff;
     font-size: 20px;
     margin: 5px 0 0;
 
@@ -54,27 +57,27 @@ $color-text-muted: $brand-light;
     }
 
     .jp-pause,.jp-play {
-      background-color: darken($color-background, 20%);
+      background-color: $color-background;
     }
 
     a {
       background-color: $color-background;
-      color: $brand-light;
+      color: $brand;
       display: inline-block;
-      line-height: 50px;
+      line-height: 40px;
       text-align: center;
       text-decoration: none;
       width: 100%;
 			@include transition;
 
       &:hover {
-        color: lighten($color-highlight, 10%);
+        color: $color-highlight;
       }
     }
   }
 
   .jp-progress {
-    background-color: lighten($color-text-muted, 20%);
+    background-color: #fff;
     height: 10px;
     margin-top: 10px;
 

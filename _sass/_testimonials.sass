@@ -1,28 +1,53 @@
-// .owl-wrapper
-// 	text-align: center
-// 	flex-wrap: wrap
-// 	background: tomato
-// 	height: 500px
+.item-container
+	margin: 3rem 5rem
+	// padding: 5rem
+
 .item
+	// margin: 3rem 5rem
 	position: relative
-	margin: 0rem 10px
-	padding: 5rem
+	padding: 3rem 3rem
+	padding-bottom: 10rem
 	height: 100%
-	flex: flex-end
-	&::before
-		content: "“"
-		color: $brand-light
-		font-size: 8rem
-		position: absolute
-		left: 0rem
-		top: -1rem
-	&::after
-		content: "”"
-		color: $brand-light
-		font-size: 8rem
-		position: absolute
-		right: 0
-		bottom: 18rem
+	background: #fff
+	border-radius: 8px
+	// &::before
+	// 	content: ""
+	// 	color: $brand
+	// 	font-size: 8rem
+	// 	position: absolute
+	// 	left: 2rem
+	// 	top: -1rem
+	// &::after
+	// 	content: "”"
+	// 	color: $brand
+	// 	font-size: 8rem
+	// 	position: absolute
+	// 	right: 2rem
+	// 	bottom: -5rem
+.timekeeper
+	float: left
+	padding-left: 10px
+	position: relative
+	bottom: 10px
+
+.testimonial-audio
+	// top: -135px
+	border: 0
+	position: relative
+	padding-bottom: 2rem
+	p
+		padding: 0px
+		position: relative
+		top: 10px
+		left: 10px
+
+.fa-quote-right
+	color: $brand
+	float: right
+	position: relative
+	top: -45px
+	right: 20px
+
 .testimonial
 	font-size: 1.8rem
 	font-family: serif
@@ -32,8 +57,9 @@
 	font-weight: bold
 
 .testimonial-container
-	background: $brand
-	color: $testimonial_fontcolor
+	background: #f3f3f3
+	color: #353535
+	padding: 3rem 10rem
 
 .testimonial-navigation
 	padding: 10px
@@ -41,8 +67,11 @@
 	width: 100%
 	justify-content: space-between
 	a
-		color: $brand-light
-		font-size: 3rem
+		color: $brand
+		font-size: 4rem
+		position: relative
+		z-index: 5
+		top: 250px
 		cursor: pointer
 		+transition
 		&:hover
@@ -50,3 +79,21 @@
 	h3
 		padding: 0 10px
 		text-align: center
+.next
+	left: 50px
+.prev
+	right: 50px
+@media (max-width: 1100px)
+	.testimonial-container
+		padding: 2rem
+	.next
+		left: 10px
+	.prev
+		right: 10px
+@media (max-width: 650px)
+	.testimonial-container
+		padding: .2rem
+	.next
+		left: 0px
+	.prev
+		right: 0px
