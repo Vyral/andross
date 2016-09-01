@@ -5,10 +5,9 @@
 
 	<body>
 
-		{% include navigation.html %}
 		{% include header.html %}
-
-  	<div class="container-fluid">
+		<div class="container-fluid">
+			{% include navigation.html %}
 			<!-- Display about main blog/content on mobile -->
 			<div class="row">
 
@@ -34,8 +33,9 @@
 		</div>
 	{% include pagination.html %}
 </div>
-	</div>
 		{% include testimonials.html %}
 		{% include footer.html %}
+
+	</div>
   </body>
 </html>
