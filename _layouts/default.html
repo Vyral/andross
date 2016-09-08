@@ -5,12 +5,14 @@
 
 	<body>
 
-		{% include header.html %}
 		<div class="container-fluid">
-			{% include navigation.html %}
-			<!-- Display about main blog/content on mobile -->
+		<div class="row">
+			  {% include contact-modal.html %}
+				{% include header.html %}
+				<!-- Display about main blog/content on mobile -->
+				{% include navigation.html %}
+		</div>
 			<div class="row">
-
 			<div class="col-sm-12 visible-xs visible-sm">
 				{% include socials.html %}
 				{% include search-box.html %}

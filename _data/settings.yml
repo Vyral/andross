@@ -1,6 +1,11 @@
 title: Andross
 description: There is no such thing as a sad unicorn.
 
+#for the navbar links.
+custom_links:
+  - title: Luxury Properties
+    url: http://www.sflivingspace.com/luxury-properties/
+
 client:
   market:
   name: andross
@@ -63,7 +68,7 @@ fontcolor_hex: "#353535"
 testimonial_fontcolor: '#fff'
 
 #make testimonial container match brand color
-testimonial-container-brand_color: false
+testimonial-container-brand_color: true
 
 #experimental, don't use yet
 theme_color: "#fff"

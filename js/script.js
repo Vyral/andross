@@ -3,6 +3,15 @@ $('.tree-toggle').click(function () {
 	$(this).parent().children('ul.tree').toggle(200);
 });
 
+$('#contact').click(function(){
+	$('.modal-wrapper').show();
+});
+
+$('.exit').click(function(){
+	$('.modal-wrapper').hide();
+});
+
+
 $(document).ready(function() {
 //Fluidvid.js
 

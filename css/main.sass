@@ -44,6 +44,11 @@ $theme: {{ site.data.settings.theme_color }}
 	width: $n
 @mixin shadow
 	box-shadow: 0 2px 7px rgba(0,0,0,0.5)
+@mixin drop-shadow
+	filter: drop-shadow(0 2px 7px rgba(0,0,0,0.5))
+	-webkit-filter: drop-shadow(0 2px 7px rgba(0,0,0,0.5))
+	-moz-filter: drop-shadow(0 2px 7px rgba(0,0,0,0.5))
+	-o-filter: drop-shadow(0 2px 7px rgba(0,0,0,0.5))
 @mixin transition
 	-webkit-transition: .5s ease-in-out
 	-moz-transition: .5s ease-in-out
@@ -71,5 +76,6 @@ $theme: {{ site.data.settings.theme_color }}
 @import "about"
 @import "footer"
 @import "testimonials"
+@import "modal"
 
 @import "custom"
