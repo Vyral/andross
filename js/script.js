@@ -8,7 +8,7 @@ $('#contact').click(function(){
 });
 
 $('.exit').click(function(){
-	$('.modal-wrapper').hide();
+	$('.modal-wrapper').fadeOut();
 });
 
 

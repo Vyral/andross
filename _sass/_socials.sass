@@ -15,9 +15,16 @@
 		border-radius: 50%
 		@include transition
 		&:hover
-			fill: $brand-light
-			@include transition
-			@include shadow
+			fill: $light-text
+			background: $brand-light
+			color: $brand-light
+			box-shadow: 4px 4px 0 $brand-light
+			border: 2px solid $brand-light
+			@include transform(scale(1.05))
+			@include transform(translateY(-0.2rem))
+		&:active
+			box-shadow: 0 0 0 $brand-light
+			@include transform(translateY(0rem))
 
 //For about page
 .about .socials
@@ -43,9 +50,10 @@
 			border-radius: 50%
 			fill: $brand
 			-webkit-transition: 1s cubic-bezier(0.4, 0, 0.2, 1)
-			transition: 1s cubic-bezier(0.4, 0, 0.2, 1)
+			transition: .3s cubic-bezier(0.4, 0, 0.2, 1)
 			&:hover
-				fill: $brand-light
+				fill: #dadada
+
 
 @media (max-width: 445px)
 	.about

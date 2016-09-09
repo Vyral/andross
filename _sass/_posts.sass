@@ -40,17 +40,18 @@
   margin-top: 20px
   text-decoration: none
   font-size: 16px
-  -webkit-transition: .5s ease-out
-  -moz-transition: .5s ease-out
-  -o-transition: .5s ease-out
-  transition: .5s ease-out
+  +transition
   &:hover
-    -webkit-transition: .5s ease-out
-    -moz-transition: .5s ease-out
-    -o-transition: .5s ease-out
-    transition: .5s ease-out
-    background: $brand-light
-    @include shadow
+    background: $light-text
+    color: $brand-light
+    box-shadow: 4px 4px 0 $brand-light
+    border: 2px solid $brand-light
+    @include transform(scale(1.05))
+    @include transform(translateY(-0.2rem))
+  &:active
+    box-shadow: 0 0 0 $brand-light
+    @include transform(translateY(0rem))
+
 
 
 // .readmore
@@ -169,10 +170,16 @@
       margin: 0 auto
       padding: .3rem
   #Twitter
+    background: $light-text
+    border: 0
     fill: #1DA1F2
   #facebook
+    background: $light-text
+    border: 0
     fill: #3B5999
   #Google_plus
+    background: $light-text
+    border: 0
     fill: #D73D32
 
 @media(max-width: 1000px)
