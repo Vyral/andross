@@ -1,5 +1,5 @@
 FILES_TO_CONVERT_GLOB = "blogger/blogger-posts/*.html"
-WRAP_LENGTH = 80
+WRAP_LENGTH = 8000
 TO_REPLACE = {
   "<br />" => "\n",
   "<ol>" => "",
