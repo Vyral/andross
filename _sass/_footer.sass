@@ -1,20 +1,24 @@
-footer
-  background: $footer-background
-  color: $footer-font-color
+.footer
+  background: darken($theme, .2)
+  color: $theme-text
   padding: 2rem
   text-align: center
+  font-size: 18px
   hr
     border-top: 2px solid $brand
   address
     font-style: normal
 @media(max-width: 500px)
-  footer
+  .footer
     text-align: center
     // hr
     //   display: none
+    .vyral-logo
+      @include size(3rem)
 
 .attribution
   text-align: center
+
 .vyral-logo
   fill: $brand
   display: inline

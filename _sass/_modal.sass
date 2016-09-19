@@ -9,6 +9,7 @@
   overflow: auto
   background: $transparent-black
   animation: fade .5s
+  color: #555
 @keyframes fade
   0%
     filter: opacity(0)
@@ -27,8 +28,8 @@
   position: relative
   background: white
   padding: 2rem
-  margin: 15% auto
-  width: 80%
+  margin: 10% auto
+  width: 90%
   max-width: 50rem
   animation: slide .5s
   +shadow
@@ -52,3 +53,7 @@
   &:focus
     outline: 0
     border: 0
+
+@media (max-width: 500px)
+  .contact-modal
+    margin: 25% auto
