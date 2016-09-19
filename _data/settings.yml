@@ -23,7 +23,6 @@ client:
   homesearch_txt: Home Search
   VR_form:
 
-
 # social links
 socials:
   facebook: 'http://facebook.com'
@@ -64,6 +63,8 @@ images:
 
 #colors
 brand_hex: '#123456'
+theme_text: '#353535'
+theme-color: '#ffffff'
 fontcolor_hex: "#353535"
 testimonial_fontcolor: '#fff'
 
