@@ -64,4 +64,5 @@ images:
 
 #colors
 brand_hex: "#2f7283"
+testimonial_fontcolor: '#000'
 fontcolor_hex: "#252525"
