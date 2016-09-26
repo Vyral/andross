@@ -63,7 +63,7 @@ images:
   client_headshot_path: /img/medellin_headshot.jpg
 
 #colors
-theme: '#000'
+theme_color: '#000'
 theme_text: '#353535'
 brand_hex: "#2f7283"
 testimonial_fontcolor: '#000'
