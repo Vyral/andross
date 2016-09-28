@@ -59,7 +59,6 @@ $(document).ready(function() {
         iframe.style.left     = '0';
         iframe.width          = '100%';
         iframe.height         = '100%';
-        iframe.maxwidth       = '600px';
 
         /*
          * Wrap the iframe in a new <div> which uses a
