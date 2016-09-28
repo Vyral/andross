@@ -1,7 +1,6 @@
 ---
 layout: post
 title:
-category:
 tags:
   - Market Update
   - Real Estate
@@ -12,8 +11,8 @@ enclosure:
 pullquote:
 enclosure_type: video/mp4
 enclosure_time:
-image: http://img.youtube.com/vi/XXXXXXXXXXX/maxresdefault.jpg
-thumbnail: http://img.youtube.com/vi/XXXXXXXXXXX/maxresdefault.jpg
+youtube_code: 12345678901
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{post.youtube_code}}" frameborder="0" allowfullscreen></iframe>
 
 {% include pullquote.html %}
