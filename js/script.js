@@ -70,6 +70,7 @@ $(document).ready(function() {
         wrap.style.width      = '100%';
         wrap.style.position   = 'relative';
         wrap.style.paddingTop = videoRatio + '%';
+        wrap.style.maxwidth   = '600px';
 
         /*
          * Add the iframe inside our newly created <div>
