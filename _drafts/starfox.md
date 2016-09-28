@@ -9,7 +9,7 @@ tags:
   - Home Seller Tips
 excerpt:
 enclosure:
-pullquote:
+pullquote: Andross the Final Boss
 enclosure_type: video/mp4
 enclosure_time:
 image: 'http://img.youtube.com/vi/XXXXXXXXXXX/maxresdefault.jpg'
