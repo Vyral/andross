@@ -4,6 +4,9 @@
 {% include head.html %}
 
 	<body>
+		{% if site.data.settings.audit_header == true %}
+			{% include audit.html %}
+		{% endif %}
 		{% include contact-modal.html %}
 		{% include navigation.html %}
 		{% include header.html %}
@@ -40,6 +43,7 @@
 				{% include socials.html %}
 				{% include search-box.html %}
 				{% include about.html%}
+				{% include reviews.html %}
 				{% include blog-archive-category.html %}
 			</div>
 		</div>

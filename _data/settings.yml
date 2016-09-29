@@ -36,18 +36,19 @@ client:
   first_CTA_URL: /homevalue/
   second_CTA_text: Home Search
   second_CTA_URL: /homesearch/
-  VR_form:
+  VR_form: '#'
 socials:
-  facebook_url:
-  linkedin_url:
-  gplus_url:
-  youtube_url:
-  twitter_url:
+  review_sm_icons: false
+  facebook_url: '#'
+  linkedin_url: '#'
+  gplus_url: '#'
+  youtube_url: '#'
+  twitter_url: '#'
   instagram_url:
   pinterest_url:
-  zillow_url:
-  trulia_url:
-  yelp_url:
+  zillow_url: '#'
+  trulia_url: '#'
+  yelp_url: '#'
   podcast_url:
 podcast:
   title:
@@ -58,7 +59,7 @@ podcast:
   description: 'If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from --client brand-- - your professional -- market -- Real Estate Agents.'
   keywords: 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in San Francisco, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
   author:
-review_sm_icons: false
+
 images:
   hero_image_path: 'http://yt3.ggpht.com/-BCq6KRXgbeU/VnnRGOVPEII/AAAAAAAAAIg/ZHP_F8ca7vA/w2120-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no/lineup.png'
   hero_logo_path: 'http://vignette1.wikia.nocookie.net/fantendo/images/7/74/StarFox_lOgO.png/revision/latest?cb=20140321224402'
