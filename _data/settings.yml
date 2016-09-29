@@ -56,14 +56,14 @@ audit_header: false
 
 #image settings
 images:
-  hero_image_path: 'http://0.design-milk.com/images/2015/12/iso_rynth03-pattern.jpg'
-  hero_logo_path: 'http://design.ubuntu.com/wp-content/uploads/logo-ubuntu_st_no%C2%AE-white-hex.png'
-  hero_background_hex: "#123456"
-  hero_text: 'Real Estate Video Blog'
+  hero_image_path: 'http://yt3.ggpht.com/-BCq6KRXgbeU/VnnRGOVPEII/AAAAAAAAAIg/ZHP_F8ca7vA/w2120-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no/lineup.png'
+  hero_logo_path: 'http://vignette1.wikia.nocookie.net/fantendo/images/7/74/StarFox_lOgO.png/revision/latest?cb=20140321224402'
+  hero_background_hex: "#D13F1E"
+  hero_text: 'Ship Flight Log'
   client_headshot_path: 'http://i.imgur.com/RQeCxbx.png'
 
 #colors
-brand_hex: '#123456'
+brand_hex: '#D13F1E'
 theme_text: '#353535'
 theme-color: '#ffffff'
 fontcolor_hex: "#353535"

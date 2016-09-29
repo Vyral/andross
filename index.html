@@ -18,10 +18,10 @@ layout: default
 
 
 						<a href="{{post.url}}">
-	            {% if post.youtube_code %}
+	            {% if post.use_youtube_code == true %}
 	            <img src="http://img.youtube.com/vi/{{post.youtube_code}}/maxresdefault.jpg" alt="{{post.title}}" class="post-image" />
 	            {% else %}
-	            <img src="twittercard.png" alt="{{site.data.settings.title}}" class="post-image"/>
+	            <img src="{{post.youtube_alt_image}}" alt="{{site.title}}" class="post-image"/>
 	            {% endif %}
 	          </a>
           </div>
