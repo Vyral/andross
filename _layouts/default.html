@@ -4,6 +4,9 @@
 {% include head.html %}
 
 	<body>
+		{% if site.data.settings.audit_header == true %}
+			{% include audit.html %}
+		{% endif %}
 		{% include header.html %}
 		<div class="container-fluid">
 			<div class="row">
@@ -22,9 +25,6 @@
 
 			<div class="row">
 				<div class="col-lg-7 col-md-7 col-lg-offset-1">
-					{% if site.data.settings.audit_header == true %}
-			 			{% include audit.html %}
-					{% endif %}
 					{{ content }}
 				</div>
 
