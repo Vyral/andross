@@ -61,11 +61,11 @@ podcast:
   author:
 
 images:
-  hero_image_path: 'http://yt3.ggpht.com/-BCq6KRXgbeU/VnnRGOVPEII/AAAAAAAAAIg/ZHP_F8ca7vA/w2120-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no/lineup.png'
-  hero_logo_path: 'http://vignette1.wikia.nocookie.net/fantendo/images/7/74/StarFox_lOgO.png/revision/latest?cb=20140321224402'
-  hero_background_hex: '#d13f1e'
-  hero_text: Ship Flight Log
   client_headshot_path: 'http://i.imgur.com/RQeCxbx.png'
+  hero_logo_path: 'http://vignette1.wikia.nocookie.net/fantendo/images/7/74/StarFox_lOgO.png/revision/latest?cb=20140321224402'
+  hero_text: Ship Flight Log
+  hero_background_hex: '#d13f1e'
+  hero_image_path: 'http://yt3.ggpht.com/-BCq6KRXgbeU/VnnRGOVPEII/AAAAAAAAAIg/ZHP_F8ca7vA/w2120-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no/lineup.png'
 brand_color: '#d13f1e'
 theme_color: '#fff'
 theme_text_color: '#353535'
