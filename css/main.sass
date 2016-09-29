@@ -12,9 +12,8 @@ $headerfont: 'Source Sans Pro', helvetica, arial, sans-serif
 
 //colors
 // If this is a really light color, you're going to have to mess around with some other settings.
-$brand: {{site.data.settings.brand_hex}}
+$brand: {{site.data.settings.brand_color}}
 $brand-light: lighten($brand, 20%)
-$testimonial_fontcolor: {{site.data.settings.testimonial_fontcolor}}
 $brand-dark: darken($brand, 10%)
 $theme: {{site.data.settings.theme_color}}
 // $bodycolor: {{site.data.settings.fontcolor_hex}}
@@ -37,7 +36,7 @@ $form-focus-outline: $brand-light
 $icon-fill: $light-text
 
 //light and dark theme
-$theme-text: {{ site.data.settings.theme_text }}
+$theme-text: {{ site.data.settings.theme_text_color }}
 
 //Mixins
 @mixin size($n)
