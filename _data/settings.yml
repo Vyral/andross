@@ -66,5 +66,7 @@ images:
   hero_text: Ship Flight Log
   client_headshot_path: 'http://i.imgur.com/RQeCxbx.png'
 brand_color: '#d13f1e'
-theme_color: '#ffffff'
+theme_color: '#fff'
 theme_text_color: '#353535'
+main_body_color: '#fff'
+main_body_text_color: '#353535'
