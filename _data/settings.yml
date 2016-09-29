@@ -1,13 +1,16 @@
+audit_header: true
+
 title: Andross
 description: There is no such thing as a sad unicorn.
 
 #for the navbar links.
 show_custom_links: false
 custom_links:
-  - title: Luxury Properties
+  - title: '#'
     url: '#'
 
 client:
+  name: Andross
   about_markdown: >-
     Andross, sometimes known as Dr. Andross is the main antagonist in the Star Fox series, and is the arch-nemesis of Fox McCloud. He is an evil mad scientist who is highly skilled in technology, telekinesis, and tactics. His forces have tried to take over the Lylat system many times. Exiled to the distant penal planet of Venom for his destructive and dangerous experiments with bio-technology, the mad scientist Andross has recently resurfaced as the supreme commander of a seemingly unstoppable military force.
 
@@ -15,7 +18,6 @@ client:
 
     Striking without warning, his invasion fleets have overrun the minimal defenses outposts of the many planets in the Lylat system, and are even now attacking the most populous world in the system, Corneria. As a scientist on Corneria, Andross specialized in bio-technology and space warps. It is theorized that exposure to his own deadly experiments may have driven him mad. In the time since his exile, who knows how his continued experimental work may have affected him?
   market: Lylat System
-  name: andross
   brand: 'Nintendo'
   brokerage: '#'
   address: 123 fake st.
@@ -32,16 +34,16 @@ client:
 
 # social links
 socials:
-  facebook_url: 'http://facebook.com'
-  linkedin_url: 'http://linked.com'
-  gplus_url: 'http://plus.google.com'
-  youtube_url: 'http://youtube.com'
-  twitter_url: 'http://twitter.com'
+  facebook_url: '#'
+  linkedin_url: '#'
+  gplus_url: '#'
+  youtube_url: '#'
+  twitter_url: '#'
   instagram_url: '#'
   pinterest_url: '#'
-  zillow_url: 'http://zillow.com'
-  trulia_url: 'http://trulia.com'
-  yelp_url: 'http://yelp.com'
+  zillow_url: '#'
+  trulia_url: '#'
+  yelp_url: '#'
   podcast_url: ''
 
 #podcast settings
