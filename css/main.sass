@@ -16,6 +16,7 @@ $brand: {{site.data.settings.brand_color}}
 $brand-light: lighten($brand, 20%)
 $brand-dark: darken($brand, 10%)
 $theme: {{site.data.settings.theme_color}}
+$theme-text: {{ site.data.settings.theme_text_color }}
 $theme-body-text: {{site.data.settings.main_body_text_color}}
 $theme-body-color: {{site.data.settings.main_body_color}}
 // $bodycolor: {{site.data.settings.fontcolor_hex}}
@@ -36,9 +37,6 @@ $form-focus-outline: $brand-light
 
 //icon fills
 $icon-fill: $light-text
-
-//light and dark theme
-$theme-text: {{ site.data.settings.theme_text_color }}
 
 //Mixins
 @mixin size($n)
